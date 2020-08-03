@@ -1,0 +1,1080 @@
+CSS
+
+/* Rectangle 273 */
+
+
+position: absolute;
+width: 675px;
+height: 242px;
+left: 0px;
+top: 0px;
+
+/* background|white */
+
+background: #FDFDFF;
+/* stroke */
+
+border: 1px solid #EBEBEB;
+box-sizing: border-box;
+border-radius: 13px;
+
+
+/* Patients Age */
+
+
+position: absolute;
+width: 149px;
+height: 30px;
+left: 24px;
+top: 23px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+/* text|dark */
+
+color: #4F4F4F;
+
+
+/* characteristics */
+
+
+position: absolute;
+width: 125px;
+height: 16px;
+left: 508px;
+top: 30px;
+
+
+
+/* Group 126 */
+
+
+position: absolute;
+width: 631px;
+height: 167px;
+left: 9px;
+top: 74px;
+
+
+
+/* Vector */
+
+
+position: absolute;
+left: 8.2%;
+right: 90.96%;
+top: 35.31%;
+bottom: 64.69%;
+
+/* text|dark */
+
+background: #4F4F4F;
+/* text|light */
+
+border: 1px solid #979797;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 8.2%;
+right: 90.96%;
+top: 59.57%;
+bottom: 40.43%;
+
+/* text|dark */
+
+background: #4F4F4F;
+/* text|light */
+
+border: 1px solid #979797;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 8.2%;
+right: 90.96%;
+top: 84%;
+bottom: 16%;
+
+/* text|dark */
+
+background: #4F4F4F;
+/* text|light */
+
+border: 1px solid #979797;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 21.2%;
+right: 78.8%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 31.73%;
+right: 68.27%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 42.26%;
+right: 57.74%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 52.78%;
+right: 47.22%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 63.31%;
+right: 36.69%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 73.83%;
+right: 26.17%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 84.36%;
+right: 15.64%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 94.89%;
+right: 5.11%;
+top: 35.12%;
+bottom: 16.12%;
+
+/* icon|light */
+
+border: 1px solid #EFF3F9;
+
+
+iOS
+
+// Rectangle 273
+
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 675, height: 242)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.992, green: 0.992, blue: 1, alpha: 1).cgColor
+
+view.layer.cornerRadius = 13
+
+view.layer.borderWidth = 1
+
+view.layer.borderColor = UIColor(red: 0.921, green: 0.921, blue: 0.921, alpha: 1).cgColor
+
+
+var parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 675).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 242).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 0).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 0).isActive = true
+
+
+
+
+// Patients Age
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 149, height: 30)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.308, green: 0.308, blue: 0.308, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-SemiBold", size: 20)
+
+
+// Line height: 24 pt
+
+
+view.text = "Patients Age"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 149).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 30).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 24).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 23).isActive = true
+
+
+
+
+// characteristics
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 125, height: 16)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 125).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 508).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 30).isActive = true
+
+
+
+
+// Group 126
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 631, height: 167)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 631).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 167).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 9).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 74).isActive = true
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+var stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 0, height: 118)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -0.5, dy: -0.5)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+Android
+
+
+
+<!-- Rectangle 273 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="675dp"
+android:layout_height="242dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="675dp"
+android:height="242dp"
+android:viewportWidth="675"
+android:viewportHeight="242"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M13 0H662C669.18 0 675 5.8203 675 13V229C675 236.18 669.18 242 662 242H13C5.8203 242 0 236.18 0 229V13C0 5.8203 5.8203 0 13 0Z"
+/>
+
+<path
+android:pathData="M0 0V242H675V0"
+android:fillColor="#FDFDFF"
+/>
+
+<path
+android:pathData="M13 0H662C669.18 0 675 5.8203 675 13V229C675 236.18 669.18 242 662 242H13C5.8203 242 0 236.18 0 229V13C0 5.8203 5.8203 0 13 0Z"
+android:strokeWidth="2"
+android:strokeColor="#EBEBEB"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Patients Age -->
+<TextView
+android:id="@+id/patients_ag"
+android:layout_width="149dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="24dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-1dp"
+android:text="@string/patients_ag"
+android:textAppearance="@style/patients_ag"
+android:gravity="center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 24sp
+-->
+<!-- styles.xml -->
+<style name="patients_ag">
+
+<item name="android:textSize">
+20sp
+</item>
+
+<item name="android:textColor">
+#4F4F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="patients_ag">
+
+Patients Age
+</string>
+
+
+
+
+<!-- characteristics -->
+<View
+android:id="@+id/characteris"
+android:layout_width="125dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="508dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="6dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Group 126 -->
+<View
+android:id="@+id/group_126"
+android:layout_width="631dp"
+android:layout_height="167dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="9dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="50dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1dp"
+android:height="119dp"
+android:viewportWidth="1"
+android:viewportHeight="119"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5V118.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>

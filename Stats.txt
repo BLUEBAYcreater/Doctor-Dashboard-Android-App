@@ -1,0 +1,441 @@
+CSS
+
+/* Rectangle 3 */
+
+
+position: absolute;
+width: 697px;
+height: 365px;
+left: 564px;
+top: 158px;
+
+background: #476E96;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+
+/* Rectangle */
+
+
+position: absolute;
+width: 638px;
+height: 320px;
+left: 593px;
+top: 177px;
+
+background: #FFFFFF;
+box-shadow: 12px 5px 2px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+
+
+/* Chart */
+
+
+position: absolute;
+width: 489.34px;
+height: 153.25px;
+left: 687px;
+top: 274.75px;
+
+
+
+/* Vertical text */
+
+
+position: absolute;
+width: 114.86px;
+height: 231.14px;
+left: 617.87px;
+top: 197px;
+
+
+
+/* Horizontal Text */
+
+
+position: absolute;
+width: 372.53px;
+height: 15.21px;
+left: 693.98px;
+top: 445px;
+
+
+Android
+
+<!-- Rectangle 3 -->
+<View
+android:id="@+id/rectangle_3"
+android:layout_width="697dp"
+android:layout_height="365dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="564dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="134dp"
+android:background="@drawable/rectangle_3"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/rectangle_3.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="697dp"
+android:height="365dp"
+android:viewportWidth="697"
+android:viewportHeight="365"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M50 0H647C674.614 0 697 22.3858 697 50V315C697 342.614 674.614 365 647 365H50C22.3858 365 0 342.614 0 315V50C0 22.3858 22.3858 0 50 0Z"
+/>
+
+<path
+android:pathData="M0 0V365H697V0"
+android:fillColor="#476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="638dp"
+android:layout_height="320dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="593dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="153dp"
+android:background="@drawable/rectangle"
+android:elevation="2dp"
+ />
+
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="638dp"
+android:height="320dp"
+android:viewportWidth="638"
+android:viewportHeight="320"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M24 0H614C627.255 0 638 10.7452 638 24V296C638 309.255 627.255 320 614 320H24C10.7452 320 0 309.255 0 296V24C0 10.7452 10.7452 0 24 0Z"
+/>
+
+<path
+android:pathData="M0 0V320H638V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Chart -->
+<View
+android:id="@+id/chart"
+android:layout_width="489.34dp"
+android:layout_height="153.25dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="687dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="250.75dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Vertical text -->
+<View
+android:id="@+id/vertical_te"
+android:layout_width="114.86dp"
+android:layout_height="231.14dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="617.87dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="173dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Horizontal Text -->
+<View
+android:id="@+id/horizontal_"
+android:layout_width="372.53dp"
+android:layout_height="15.21dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="693.98dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="421dp"
+android:background="#00000000"
+ />
+
+
+
+
+iOS
+
+
+// Rectangle 3
+
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 697, height: 365)
+
+view.backgroundColor = .white
+
+
+var shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 50)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 0, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+var shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 1).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 50
+
+
+var parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 697).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 365).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 564).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 158).isActive = true
+
+
+
+
+// Rectangle
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 638, height: 320)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 24)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 2
+
+layer0.shadowOffset = CGSize(width: 12, height: 5)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 24
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 638).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 320).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 593).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 177).isActive = true
+
+
+
+
+// Chart
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 489.34, height: 153.25)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 489.34).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 153.25).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 687).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 274.75).isActive = true
+
+
+
+
+// Vertical text
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 114.86, height: 231.14)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 114.86).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 231.14).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 617.87).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 197).isActive = true
+
+
+
+
+// Horizontal Text
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 372.53, height: 15.21)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 372.53).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 15.21).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 693.98).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 445).isActive = true
+

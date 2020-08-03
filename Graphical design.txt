@@ -1,0 +1,1232 @@
+CSS
+
+/* Rectangle 275 */
+
+
+position: absolute;
+width: 345px;
+height: 287px;
+left: 601px;
+top: 567px;
+
+background: #476E96;
+/* stroke */
+
+border: 1px solid #EBEBEB;
+box-sizing: border-box;
+border-radius: 13px;
+
+
+/* Rectangle 274 */
+
+
+position: absolute;
+width: 288px;
+height: 242px;
+left: 629px;
+top: 589px;
+
+background: #FFFFFF;
+border: 1px solid #476E96;
+box-sizing: border-box;
+box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 13px;
+
+
+/* Ellipse 207 */
+
+
+position: absolute;
+width: 121px;
+height: 121px;
+left: 655px;
+top: 681px;
+
+background: #7F7FD5;
+
+
+/* Ellipse 206 */
+
+
+position: absolute;
+width: 61px;
+height: 47px;
+left: 727.02px;
+top: 689px;
+
+background: #E786D7;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+
+/* Rectangle 282 */
+
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 809px;
+top: 693px;
+
+background: #E786D7;
+border: 1px solid #E786D7;
+box-sizing: border-box;
+border-radius: 5px;
+
+
+/* Rectangle 281 */
+
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 809px;
+top: 728px;
+
+/* elements|gradient */
+
+background: #7F7FD5;
+/* elements|gradient */
+
+border: 1px solid #7F7FD5;
+box-sizing: border-box;
+border-radius: 5px;
+
+
+/* Recovery */
+
+
+position: absolute;
+width: 67px;
+height: 16px;
+left: 838px;
+top: 692px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* text|dark */
+
+color: #4F4F4F;
+
+
+/* You are recovering faster than we thought */
+
+
+position: absolute;
+width: 217px;
+height: 16px;
+left: 660px;
+top: 635px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* text|dark */
+
+color: #4F4F4F;
+
+
+/* Healthy Life */
+
+
+position: absolute;
+width: 89px;
+height: 16px;
+left: 660px;
+top: 607px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Water intake */
+
+
+position: absolute;
+width: 67px;
+height: 16px;
+left: 840px;
+top: 734px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* text|dark */
+
+color: #4F4F4F;
+
+
+/* 80% */
+
+
+position: absolute;
+width: 49px;
+height: 20px;
+left: 667px;
+top: 739px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* background|white */
+
+color: #FDFDFF;
+
+
+/* 20% */
+
+
+position: absolute;
+width: 49px;
+height: 20px;
+left: 735px;
+top: 717.04px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* background|white */
+
+color: #FDFDFF;
+transform: rotate(
+
+
+iOS
+
+
+<!-- Rectangle 275 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="345dp"
+android:layout_height="287dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="601dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="543dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="345dp"
+android:height="287dp"
+android:viewportWidth="345"
+android:viewportHeight="287"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M13 0H332C339.18 0 345 5.8203 345 13V274C345 281.18 339.18 287 332 287H13C5.8203 287 0 281.18 0 274V13C0 5.8203 5.8203 0 13 0Z"
+/>
+
+<path
+android:pathData="M0 0V287H345V0"
+android:fillColor="#476E96"
+/>
+
+<path
+android:pathData="M13 0H332C339.18 0 345 5.8203 345 13V274C345 281.18 339.18 287 332 287H13C5.8203 287 0 281.18 0 274V13C0 5.8203 5.8203 0 13 0Z"
+android:strokeWidth="2"
+android:strokeColor="#EBEBEB"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 274 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="288dp"
+android:layout_height="242dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="629dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="565dp"
+android:background="@drawable/rectangle_2"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="288dp"
+android:height="242dp"
+android:viewportWidth="288"
+android:viewportHeight="242"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M13 0H275C282.18 0 288 5.8203 288 13V229C288 236.18 282.18 242 275 242H13C5.8203 242 0 236.18 0 229V13C0 5.8203 5.8203 0 13 0Z"
+/>
+
+<path
+android:pathData="M0 0V242H288V0"
+android:fillColor="#FFFFFF"
+/>
+
+<path
+android:pathData="M13 0H275C282.18 0 288 5.8203 288 13V229C288 236.18 282.18 242 275 242H13C5.8203 242 0 236.18 0 229V13C0 5.8203 5.8203 0 13 0Z"
+android:strokeWidth="2"
+android:strokeColor="#476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Ellipse 207 -->
+<View
+android:id="@+id/ellipse_207"
+android:layout_width="121dp"
+android:layout_height="121dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="655dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="657dp"
+android:background="@drawable/ellipse_207"
+ />
+
+
+<!-- drawable/ellipse_207.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="121dp"
+android:height="121dp"
+android:viewportWidth="121"
+android:viewportHeight="121"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M121 60.5C121 93.9132 93.9132 121 60.5 121C27.0868 121 0 93.9132 0 60.5C0 27.0868 27.0868 0 60.5 0C93.9132 0 121 27.0868 121 60.5Z"
+/>
+
+<path
+android:pathData="M0 0V121H121V0"
+android:fillColor="#7F7FD5"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Ellipse 206 -->
+<View
+android:id="@+id/ellipse_206"
+android:layout_width="61dp"
+android:layout_height="47dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="727.02dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="665dp"
+android:background="@drawable/ellipse_206"
+ />
+
+
+<!-- drawable/ellipse_206.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="61dp"
+android:height="47dp"
+android:viewportWidth="61"
+android:viewportHeight="47"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H61V47H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V47H61V0"
+android:fillColor="#E786D7"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 282 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="16dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="809dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="669dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="16dp"
+android:height="16dp"
+android:viewportWidth="16"
+android:viewportHeight="16"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M5 0H11C13.7614 0 16 2.23858 16 5V11C16 13.7614 13.7614 16 11 16H5C2.23858 16 0 13.7614 0 11V5C0 2.23858 2.23858 0 5 0Z"
+/>
+
+<path
+android:pathData="M0 0V16H16V0"
+android:fillColor="#E786D7"
+/>
+
+<path
+android:pathData="M5 0H11C13.7614 0 16 2.23858 16 5V11C16 13.7614 13.7614 16 11 16H5C2.23858 16 0 13.7614 0 11V5C0 2.23858 2.23858 0 5 0Z"
+android:strokeWidth="2"
+android:strokeColor="#E786D7"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 281 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="16dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="809dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="704dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="16dp"
+android:height="16dp"
+android:viewportWidth="16"
+android:viewportHeight="16"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M5 0H11C13.7614 0 16 2.23858 16 5V11C16 13.7614 13.7614 16 11 16H5C2.23858 16 0 13.7614 0 11V5C0 2.23858 2.23858 0 5 0Z"
+/>
+
+<path
+android:pathData="M0 0V16H16V0"
+android:fillColor="#7F7FD5"
+/>
+
+<path
+android:pathData="M5 0H11C13.7614 0 16 2.23858 16 5V11C16 13.7614 13.7614 16 11 16H5C2.23858 16 0 13.7614 0 11V5C0 2.23858 2.23858 0 5 0Z"
+android:strokeWidth="2"
+android:strokeColor="#7F7FD5"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Recovery -->
+<TextView
+android:id="@+id/recovery"
+android:layout_width="67dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="838dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="668dp"
+android:text="@string/recovery"
+android:textAppearance="@style/recovery"
+android:gravity="center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="recovery">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#4F4F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="recovery">
+
+Recovery
+</string>
+
+
+
+
+<!-- You are recovering faster than we thought -->
+<TextView
+android:id="@+id/you_are_rec"
+android:layout_width="217dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="660dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="611dp"
+android:text="@string/you_are_rec"
+android:textAppearance="@style/you_are_rec"
+android:gravity="center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="you_are_rec">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#4F4F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="you_are_rec">
+
+You are recovering faster than we thought
+</string>
+
+
+
+
+<!-- Healthy Life -->
+<TextView
+android:id="@+id/healthy_lif"
+android:layout_width="89dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="660dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="583dp"
+android:text="@string/healthy_lif"
+android:textAppearance="@style/healthy_lif"
+android:gravity="center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 17sp
+-->
+<!-- styles.xml -->
+<style name="healthy_lif">
+
+<item name="android:textSize">
+14sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="healthy_lif">
+
+Healthy Life
+</string>
+
+
+
+
+<!-- Water intake -->
+<TextView
+android:id="@+id/water_intak"
+android:layout_width="67dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="840dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="710dp"
+android:text="@string/water_intak"
+android:textAppearance="@style/water_intak"
+android:gravity="center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="water_intak">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#4F4F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="water_intak">
+
+Water intake
+</string>
+
+
+
+
+<!-- 80% -->
+<TextView
+android:id="@+id/some_id"
+android:layout_width="49dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="667dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="715dp"
+android:text="@string/some_id"
+android:textAppearance="@style/some_id"
+android:gravity="center_horizontal|center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="some_id">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#FDFDFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="some_id">
+
+80%
+</string>
+
+
+
+
+<!-- 20% -->
+<TextView
+android:id="@+id/some_id"
+android:layout_width="49dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="735dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="693.04dp"
+android:text="@string/some_id"
+android:textAppearance="@style/some_id"
+android:gravity="center_horizontal|center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="some_id">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#FDFDFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="some_id">
+
+20%
+</string>
+
+
+Android
+
+
+// Rectangle 275
+
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 345, height: 287)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 1).cgColor
+
+view.layer.cornerRadius = 13
+
+view.layer.borderWidth = 1
+
+view.layer.borderColor = UIColor(red: 0.921, green: 0.921, blue: 0.921, alpha: 1).cgColor
+
+
+var parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 345).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 287).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 601).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 567).isActive = true
+
+
+
+
+// Rectangle 274
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 288, height: 242)
+
+view.backgroundColor = .white
+
+
+var shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 13)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 4
+
+layer0.shadowOffset = CGSize(width: 7, height: 4)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+var shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 13
+
+shapes.layer.borderWidth = 1
+
+shapes.layer.borderColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 288).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 242).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 629).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 589).isActive = true
+
+
+
+
+// Ellipse 207
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 121, height: 121)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.498, green: 0.498, blue: 0.835, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 121).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 121).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 655).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 681).isActive = true
+
+
+
+
+// Ellipse 206
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 61, height: 47)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.906, green: 0.525, blue: 0.845, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 61).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 47).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 727.02).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 689).isActive = true
+
+
+
+
+// Rectangle 282
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 16, height: 16)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.906, green: 0.525, blue: 0.845, alpha: 1).cgColor
+
+view.layer.cornerRadius = 5
+
+view.layer.borderWidth = 1
+
+view.layer.borderColor = UIColor(red: 0.906, green: 0.525, blue: 0.845, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 809).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 693).isActive = true
+
+
+
+
+// Rectangle 281
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 16, height: 16)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.498, green: 0.498, blue: 0.835, alpha: 1).cgColor
+
+view.layer.cornerRadius = 5
+
+view.layer.borderWidth = 1
+
+view.layer.borderColor = UIColor(red: 0.498, green: 0.498, blue: 0.835, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 809).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 728).isActive = true
+
+
+
+
+// Recovery
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 67, height: 16)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.308, green: 0.308, blue: 0.308, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-SemiBold", size: 12)
+
+
+// Line height: 15 pt
+
+
+view.text = "Recovery"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 67).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 838).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 692).isActive = true
+
+
+
+
+// You are recovering faster than we thought
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 217, height: 16)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.308, green: 0.308, blue: 0.308, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-SemiBold", size: 12)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 15 pt
+
+
+view.text = "You are recovering faster than we thought"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 217).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 660).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 635).isActive = true
+
+
+
+
+// Healthy Life
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 89, height: 16)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-Bold", size: 14)
+
+
+// Line height: 17 pt
+
+
+view.text = "Healthy Life"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 89).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 660).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 607).isActive = true
+
+
+
+
+// Water intake
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 67, height: 16)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.308, green: 0.308, blue: 0.308, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-SemiBold", size: 12)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 15 pt
+
+
+view.text = "Water intake"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 67).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 840).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 734).isActive = true
+
+
+
+
+// 80%
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 49, height: 20)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.992, green: 0.992, blue: 1, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-SemiBold", size: 12)
+
+
+// Line height: 15 pt
+
+
+view.textAlignment = .center
+
+view.text = "80%"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 49).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 20).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 667).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 739).isActive = true
+
+
+
+
+// 20%
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 49, height: 20)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.992, green: 0.992, blue: 1, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-SemiBold", size: 12)
+
+
+// Line height: 15 pt
+
+
+view.textAlignment = .center
+
+view.text = "20%"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 49).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 20).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 735).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 717.04).isActive = true
+

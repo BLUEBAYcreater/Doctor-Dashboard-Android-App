@@ -1,0 +1,750 @@
+ CSS
+
+
+/* Rectangle 274 */
+position: absolute;
+width: 381px;
+height: 242px;
+left: 0px;
+top: 0px;
+
+/* background|white */
+
+background: #FDFDFF;
+/* stroke */
+
+border: 1px solid #EBEBEB;
+box-sizing: border-box;
+border-radius: 13px;
+
+
+/* Dr Louis Prescrition Bill */
+
+
+position: absolute;
+width: 184px;
+height: 30px;
+left: 24px;
+top: 19px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+/* text|dark */
+
+color: #4F4F4F;
+
+
+/* Tablet */
+
+
+position: absolute;
+width: 38px;
+height: 15px;
+left: 261px;
+top: 30px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+/* text|dark */
+
+color: #4F4F4F;
+
+
+/* Details */
+
+
+position: absolute;
+width: 48px;
+height: 16px;
+left: 308px;
+top: 30px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* text|light */
+
+color: #979797;
+
+
+/* Group 65 */
+
+
+position: absolute;
+width: 140px;
+height: 32px;
+left: 217px;
+top: 73px;
+
+
+
+/* Group 63 */
+
+
+position: absolute;
+width: 140px;
+height: 33px;
+left: 25px;
+top: 127px;
+
+
+
+/* Group 68 */
+
+
+position: absolute;
+width: 140px;
+height: 33px;
+left: 25px;
+top: 73px;
+
+
+
+/* Group 66 */
+
+
+position: absolute;
+width: 140px;
+height: 33px;
+left: 217px;
+top: 126px;
+
+
+
+/* Group 64 */
+
+
+position: absolute;
+width: 140px;
+height: 32px;
+left: 25px;
+top: 181px;
+
+
+
+/* Group 67 */
+
+
+position: absolute;
+width: 140px;
+height: 32px;
+left: 217px;
+top: 180px;
+
+
+IOS
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 381, height: 242)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.992, green: 0.992, blue: 1, alpha: 1).cgColor
+
+view.layer.cornerRadius = 13
+
+view.layer.borderWidth = 1
+
+view.layer.borderColor = UIColor(red: 0.921, green: 0.921, blue: 0.921, alpha: 1).cgColor
+
+
+var parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 381).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 242).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 0).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 0).isActive = true
+
+
+
+
+// Dr Louis Prescrition Bill
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 184, height: 30)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.308, green: 0.308, blue: 0.308, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-SemiBold", size: 20)
+
+view.numberOfLines = 0
+
+view.lineBreakMode = .byWordWrapping
+
+
+// Line height: 24 pt
+
+
+view.text = "Dr Louis Prescrition Bill"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 184).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 30).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 24).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 19).isActive = true
+
+
+
+
+// Tablet
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 38, height: 15)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.308, green: 0.308, blue: 0.308, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-Regular", size: 12)
+
+
+// Line height: 15 pt
+
+// (identical to box height)
+
+
+view.textAlignment = .right
+
+view.text = "Tablet"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 38).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 15).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 261).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 30).isActive = true
+
+
+
+
+// Details
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 48, height: 16)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.592, green: 0.592, blue: 0.592, alpha: 1)
+
+view.font = UIFont(name: "Montserrat-Regular", size: 12)
+
+
+// Line height: 15 pt
+
+
+view.textAlignment = .right
+
+view.text = "Details"
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 48).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 16).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 308).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 30).isActive = true
+
+
+
+
+// Group 65
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 140, height: 32)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 140).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 217).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 73).isActive = true
+
+
+
+
+// Group 63
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 140, height: 33)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 140).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 33).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 25).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 127).isActive = true
+
+
+
+
+// Group 68
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 140, height: 33)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 140).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 33).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 25).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 73).isActive = true
+
+
+
+
+// Group 66
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 140, height: 33)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 140).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 33).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 217).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 126).isActive = true
+
+
+
+
+// Group 64
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 140, height: 32)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 140).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 25).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 181).isActive = true
+
+
+
+
+// Group 67
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 140, height: 32)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 140).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 217).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 180).isActive = true
+
+
+Android
+
+<!-- Rectangle 274 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="381dp"
+android:layout_height="242dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="381dp"
+android:height="242dp"
+android:viewportWidth="381"
+android:viewportHeight="242"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M13 0H368C375.18 0 381 5.8203 381 13V229C381 236.18 375.18 242 368 242H13C5.8203 242 0 236.18 0 229V13C0 5.8203 5.8203 0 13 0Z"
+/>
+
+<path
+android:pathData="M0 0V242H381V0"
+android:fillColor="#FDFDFF"
+/>
+
+<path
+android:pathData="M13 0H368C375.18 0 381 5.8203 381 13V229C381 236.18 375.18 242 368 242H13C5.8203 242 0 236.18 0 229V13C0 5.8203 5.8203 0 13 0Z"
+android:strokeWidth="2"
+android:strokeColor="#EBEBEB"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Dr Louis Prescrition Bill -->
+<TextView
+android:id="@+id/dr_louis_pr"
+android:layout_width="184dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="24dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-5dp"
+android:text="@string/dr_louis_pr"
+android:textAppearance="@style/dr_louis_pr"
+android:gravity="center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 24sp
+-->
+<!-- styles.xml -->
+<style name="dr_louis_pr">
+
+<item name="android:textSize">
+20sp
+</item>
+
+<item name="android:textColor">
+#4F4F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="dr_louis_pr">
+
+Dr Louis Prescrition Bill
+</string>
+
+
+
+
+<!-- Tablet -->
+<TextView
+android:id="@+id/tablet"
+android:layout_width="38dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="261dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="6dp"
+android:text="@string/tablet"
+android:textAppearance="@style/tablet"
+android:gravity="right|center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="tablet">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#4F4F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tablet">
+
+Tablet
+</string>
+
+
+
+
+<!-- Details -->
+<TextView
+android:id="@+id/details"
+android:layout_width="48dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="308dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="6dp"
+android:text="@string/details"
+android:textAppearance="@style/details"
+android:gravity="right|center_vertical"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="details">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#979797
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="details">
+
+Details
+</string>
+
+
+
+
+<!-- Group 65 -->
+<View
+android:id="@+id/group_65"
+android:layout_width="140dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="217dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="49dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Group 63 -->
+<View
+android:id="@+id/group_63"
+android:layout_width="140dp"
+android:layout_height="33dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="25dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="103dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Group 68 -->
+<View
+android:id="@+id/group_68"
+android:layout_width="140dp"
+android:layout_height="33dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="25dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="49dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Group 66 -->
+<View
+android:id="@+id/group_66"
+android:layout_width="140dp"
+android:layout_height="33dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="217dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="102dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Group 64 -->
+<View
+android:id="@+id/group_64"
+android:layout_width="140dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="25dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="157dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Group 67 -->
+<View
+android:id="@+id/group_67"
+android:layout_width="140dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="217dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="156dp"
+android:background="#00000000"
+ />
+

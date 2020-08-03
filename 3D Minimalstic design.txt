@@ -1,0 +1,1430 @@
+CSS
+
+/* Ellipse 1 */
+
+
+position: absolute;
+width: 535px;
+height: 898px;
+left: -316px;
+top: -7px;
+
+background: #476E96;
+
+
+/* Ellipse 2 */
+
+
+position: absolute;
+width: 408px;
+height: 776px;
+left: -217px;
+top: 52px;
+
+background: #476E96;
+box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+
+
+/* Text */
+
+
+position: absolute;
+width: 114.86px;
+height: 333.25px;
+left: 103px;
+top: 242px;
+
+
+
+/* Rectangle 8 */
+
+
+position: absolute;
+width: 52px;
+height: 32px;
+left: 32px;
+top: 543px;
+
+background: rgba(71, 110, 150, 0.88);
+box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+
+
+/* Rectangle 9 */
+
+
+position: absolute;
+width: 52px;
+height: 32px;
+left: 32px;
+top: 463px;
+
+background: rgba(71, 110, 150, 0.88);
+box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+
+
+/* Rectangle 10 */
+
+
+position: absolute;
+width: 52px;
+height: 32px;
+left: 32px;
+top: 382px;
+
+background: rgba(71, 110, 150, 0.88);
+box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+
+
+/* Rectangle 11 */
+
+
+position: absolute;
+width: 52px;
+height: 32px;
+left: 32px;
+top: 308px;
+
+background: rgba(71, 110, 150, 0.88);
+box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+
+
+/* Rectangle 12 */
+
+
+position: absolute;
+width: 52px;
+height: 32px;
+left: 35px;
+top: 233px;
+
+background: rgba(71, 110, 150, 0.88);
+box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 3.59%;
+right: 94.53%;
+top: 35.23%;
+bottom: 62.05%;
+
+background: #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 3.75%;
+right: 94.22%;
+top: 26.82%;
+bottom: 70.91%;
+
+background: #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 3.83%;
+right: 94.77%;
+top: 43.64%;
+bottom: 54.32%;
+
+background: #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 4.36%;
+right: 95.3%;
+top: 62.37%;
+bottom: 37.14%;
+
+border: 2px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 3.91%;
+right: 94.84%;
+top: 61.7%;
+bottom: 36.48%;
+
+border: 2px solid #EFF3F9;
+
+
+/* Vector */
+
+
+position: absolute;
+left: 3.83%;
+right: 94.77%;
+top: 52.95%;
+bottom: 45.23%;
+
+background: #EFF3F9;
+
+
+
+
+iOS
+
+
+
+// Ellipse 1
+
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 535, height: 898)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 1).cgColor
+
+
+var parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 535).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 898).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: -316).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: -7).isActive = true
+
+
+
+
+// Ellipse 2
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 408, height: 776)
+
+view.backgroundColor = .white
+
+
+var shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 0)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 8
+
+layer0.shadowOffset = CGSize(width: 8, height: 8)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+var shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 1).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 408).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 776).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: -217).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 52).isActive = true
+
+
+
+
+// Text
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 114.86, height: 333.25)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 114.86).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 333.25).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 103).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 242).isActive = true
+
+
+
+
+// Rectangle 8
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 52, height: 32)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 12)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 6
+
+layer0.shadowOffset = CGSize(width: 2, height: 5)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 0.88).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 12
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 52).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 32).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 543).isActive = true
+
+
+
+
+// Rectangle 9
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 52, height: 32)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 12)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 6
+
+layer0.shadowOffset = CGSize(width: 2, height: 5)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 0.88).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 12
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 52).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 32).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 463).isActive = true
+
+
+
+
+// Rectangle 10
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 52, height: 32)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 12)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 6
+
+layer0.shadowOffset = CGSize(width: 2, height: 5)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 0.88).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 12
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 52).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 32).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 382).isActive = true
+
+
+
+
+// Rectangle 11
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 52, height: 32)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 12)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 6
+
+layer0.shadowOffset = CGSize(width: 2, height: 5)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 0.88).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 12
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 52).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 32).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 308).isActive = true
+
+
+
+
+// Rectangle 12
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 52, height: 32)
+
+view.backgroundColor = .white
+
+
+shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 12)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 6
+
+layer0.shadowOffset = CGSize(width: 2, height: 5)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer1 = CALayer()
+
+layer1.backgroundColor = UIColor(red: 0.278, green: 0.431, blue: 0.588, alpha: 0.88).cgColor
+
+layer1.bounds = shapes.bounds
+
+layer1.position = shapes.center
+
+shapes.layer.addSublayer(layer1)
+
+
+shapes.layer.cornerRadius = 12
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+view.widthAnchor.constraint(equalToConstant: 52).isActive = true
+
+view.heightAnchor.constraint(equalToConstant: 32).isActive = true
+
+view.leadingAnchor.constraint(equalTo: parent.leadingAnchor, constant: 35).isActive = true
+
+view.topAnchor.constraint(equalTo: parent.topAnchor, constant: 233).isActive = true
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 26, height: 20)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 18, height: 18)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 4.36, height: 4.36)
+
+view.backgroundColor = .white
+
+
+var stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.layer.borderWidth = 2
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 16, height: 16)
+
+view.backgroundColor = .white
+
+
+stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+view.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.layer.borderWidth = 2
+
+stroke.layer.borderColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+// Vector
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 18, height: 16)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0.937, green: 0.953, blue: 0.976, alpha: 1).cgColor
+
+
+parent = self.view!
+
+parent.addSubview(view)
+
+view.translatesAutoresizingMaskIntoConstraints = false
+
+
+
+
+
+
+Android
+
+
+
+<!-- Ellipse 1 -->
+<View
+android:id="@+id/ellipse_1"
+android:layout_width="535dp"
+android:layout_height="898dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="-316dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-31dp"
+android:background="@drawable/ellipse_1"
+ />
+
+
+<!-- drawable/ellipse_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="535dp"
+android:height="898dp"
+android:viewportWidth="535"
+android:viewportHeight="898"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M535 449C535 696.976 415.236 898 267.5 898C119.764 898 0 696.976 0 449C0 201.024 119.764 0 267.5 0C415.236 0 535 201.024 535 449Z"
+/>
+
+<path
+android:pathData="M0 0V898H535V0"
+android:fillColor="#476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Ellipse 2 -->
+<View
+android:id="@+id/ellipse_2"
+android:layout_width="408dp"
+android:layout_height="776dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="-217dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="28dp"
+android:background="@drawable/ellipse_2"
+android:elevation="8dp"
+ />
+
+
+<!-- drawable/ellipse_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="408dp"
+android:height="776dp"
+android:viewportWidth="408"
+android:viewportHeight="776"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M408 388C408 602.286 316.666 776 204 776C91.3339 776 0 602.286 0 388C0 173.714 91.3339 0 204 0C316.666 0 408 173.714 408 388Z"
+/>
+
+<path
+android:pathData="M0 0V776H408V0"
+android:fillColor="#476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Text -->
+<View
+android:id="@+id/text"
+android:layout_width="114.86dp"
+android:layout_height="333.25dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="103dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="218dp"
+android:background="#00000000"
+ />
+
+
+
+
+<!-- Rectangle 8 -->
+<View
+android:id="@+id/rectangle_8"
+android:layout_width="52dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="32dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="519dp"
+android:background="@drawable/rectangle_8"
+android:elevation="6dp"
+ />
+
+
+<!-- drawable/rectangle_8.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="52dp"
+android:height="32dp"
+android:viewportWidth="52"
+android:viewportHeight="32"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M12 0H40C46.6274 0 52 5.37258 52 12V20C52 26.6274 46.6274 32 40 32H12C5.37258 32 0 26.6274 0 20V12C0 5.37258 5.37258 0 12 0Z"
+/>
+
+<path
+android:pathData="M0 0V32H52V0"
+android:fillColor="#E0476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 9 -->
+<View
+android:id="@+id/rectangle_9"
+android:layout_width="52dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="32dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="439dp"
+android:background="@drawable/rectangle_9"
+android:elevation="6dp"
+ />
+
+
+<!-- drawable/rectangle_9.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="52dp"
+android:height="32dp"
+android:viewportWidth="52"
+android:viewportHeight="32"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M12 0H40C46.6274 0 52 5.37258 52 12V20C52 26.6274 46.6274 32 40 32H12C5.37258 32 0 26.6274 0 20V12C0 5.37258 5.37258 0 12 0Z"
+/>
+
+<path
+android:pathData="M0 0V32H52V0"
+android:fillColor="#E0476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 10 -->
+<View
+android:id="@+id/rectangle_1"
+android:layout_width="52dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="32dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="358dp"
+android:background="@drawable/rectangle_1"
+android:elevation="6dp"
+ />
+
+
+<!-- drawable/rectangle_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="52dp"
+android:height="32dp"
+android:viewportWidth="52"
+android:viewportHeight="32"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M12 0H40C46.6274 0 52 5.37258 52 12V20C52 26.6274 46.6274 32 40 32H12C5.37258 32 0 26.6274 0 20V12C0 5.37258 5.37258 0 12 0Z"
+/>
+
+<path
+android:pathData="M0 0V32H52V0"
+android:fillColor="#E0476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 11 -->
+<View
+android:id="@+id/rectangle_1"
+android:layout_width="52dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="32dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="284dp"
+android:background="@drawable/rectangle_1"
+android:elevation="6dp"
+ />
+
+
+<!-- drawable/rectangle_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="52dp"
+android:height="32dp"
+android:viewportWidth="52"
+android:viewportHeight="32"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M12 0H40C46.6274 0 52 5.37258 52 12V20C52 26.6274 46.6274 32 40 32H12C5.37258 32 0 26.6274 0 20V12C0 5.37258 5.37258 0 12 0Z"
+/>
+
+<path
+android:pathData="M0 0V32H52V0"
+android:fillColor="#E0476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 12 -->
+<View
+android:id="@+id/rectangle_1"
+android:layout_width="52dp"
+android:layout_height="32dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="35dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="209dp"
+android:background="@drawable/rectangle_1"
+android:elevation="6dp"
+ />
+
+
+<!-- drawable/rectangle_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="52dp"
+android:height="32dp"
+android:viewportWidth="52"
+android:viewportHeight="32"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M12 0H40C46.6274 0 52 5.37258 52 12V20C52 26.6274 46.6274 32 40 32H12C5.37258 32 0 26.6274 0 20V12C0 5.37258 5.37258 0 12 0Z"
+/>
+
+<path
+android:pathData="M0 0V32H52V0"
+android:fillColor="#E0476E96"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H24V24H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V24H24V0"
+android:fillColor="#EFF3F9"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="26dp"
+android:height="20dp"
+android:viewportWidth="26"
+android:viewportHeight="20"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H26V20H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V20H26V0"
+android:fillColor="#EFF3F9"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="18dp"
+android:height="18dp"
+android:viewportWidth="18"
+android:viewportHeight="18"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H18V18H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V18H18V0"
+android:fillColor="#EFF3F9"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="6.36dp"
+android:height="6.36dp"
+android:viewportWidth="6.36"
+android:viewportHeight="6.36"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M1 1H5.36364V5.36364H1V1Z"
+/>
+
+</group>
+
+<path
+android:pathData="M1 1H5.36364V5.36364H1V1Z"
+android:strokeWidth="2"
+android:strokeCap="round"
+android:strokeJoin="round"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="18dp"
+android:height="18dp"
+android:viewportWidth="18"
+android:viewportHeight="18"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M1 1H17V17H1V1Z"
+/>
+
+</group>
+
+<path
+android:pathData="M1 1H17V17H1V1Z"
+android:strokeWidth="2"
+android:strokeCap="round"
+android:strokeJoin="round"
+android:strokeColor="#EFF3F9"
+/>
+
+</vector>
+
+
+
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="18dp"
+android:height="16dp"
+android:viewportWidth="18"
+android:viewportHeight="16"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H18V16H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V16H18V0"
+android:fillColor="#EFF3F9"
+/>
+
+</group>
+
+</vector>

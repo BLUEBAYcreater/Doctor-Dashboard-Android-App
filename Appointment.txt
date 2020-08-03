@@ -1,0 +1,798 @@
+CSS
+
+/* Card/Colored */
+
+
+position: absolute;
+width: 1214px;
+height: 536px;
+
+background: #FFFFFF;
+border: 1px solid rgba(63, 63, 68, 0.005);
+box-shadow: 30px 30px 6px rgba(63, 63, 68, 0.05), 0px 1px 3px rgba(63, 63, 68, 0.15);
+border-radius: 4px;
+
+
+/* Rectangle */
+
+
+position: absolute;
+width: 1193px;
+height: 68px;
+
+
+
+/* . */
+
+
+position: relative;
+width: 130px;
+height: 20px;
+
+
+
+/* Portlet Title */
+
+
+position: absolute;
+width: 224px;
+height: 20px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.05px;
+
+color: #3A3B3F;
+
+
+
+/* . */
+
+
+position: relative;
+width: 1183.07px;
+height: 56px;
+
+
+
+/* . */
+
+
+position: relative;
+width: 1183.07px;
+height: 56px;
+
+
+
+/* . */
+
+
+position: relative;
+width: 1183.07px;
+height: 56px;
+
+
+
+/* . */
+
+
+position: relative;
+width: 1183.07px;
+height: 56px;
+
+
+
+/* . */
+
+
+position: relative;
+width: 1183.07px;
+height: 56px;
+
+
+
+/* . */
+
+
+position: relative;
+width: 1183.07px;
+height: 56px;
+
+
+
+/* . */
+
+
+position: relative;
+width: 1183.07px;
+height: 56px;
+
+
+
+/* DataTable/TableFooter */
+
+
+position: absolute;
+width: 1214px;
+height: 60.02px;
+
+
+
+
+
+ANDROID
+
+<!-- Card/Colored -->
+<View
+android:id="@+id/card_colore"
+android:layout_width="1214dp"
+android:layout_height="536dp"
+android:background="@drawable/card_colore"
+android:elevation="3dp"
+ />
+
+
+<!-- drawable/card_colore.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1216dp"
+android:height="538dp"
+android:viewportWidth="1216"
+android:viewportHeight="538"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M5 1H1211C1213.21 1 1215 2.79086 1215 5V533C1215 535.209 1213.21 537 1211 537H5C2.79086 537 1 535.209 1 533V5C1 2.79086 2.79086 1 5 1Z"
+/>
+
+<path
+android:pathData="M1 1V537H1215V1"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+<group>
+
+<clip-path
+android:pathData="M0 0V538H1216V0M5 1H1211C1213.21 1 1215 2.79086 1215 5V533C1215 535.209 1213.21 537 1211 537H5C2.79086 537 1 535.209 1 533V5C1 2.79086 2.79086 1 5 1Z"
+/>
+
+<path
+android:pathData="M5 1H1211C1213.21 1 1215 2.79086 1215 5V533C1215 535.209 1213.21 537 1211 537H5C2.79086 537 1 535.209 1 533V5C1 2.79086 2.79086 1 5 1Z"
+android:strokeWidth="2"
+android:strokeColor="#013F3F44"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="1193dp"
+android:layout_height="68dp"
+android:background="@drawable/rectangle"
+ />
+
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1193dp"
+android:height="68dp"
+android:viewportWidth="1193"
+android:viewportHeight="68"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1193V68H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="130dp"
+android:height="20dp"
+android:viewportWidth="130"
+android:viewportHeight="20"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H130V20H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Portlet Title -->
+<TextView
+android:id="@+id/portlet_tit"
+android:layout_width="224dp"
+android:layout_height="20dp"
+android:text="@string/portlet_tit"
+android:textAppearance="@style/portlet_tit"
+android:lineSpacingExtra="1sp"
+android:translationY="-0.62sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Roboto
+  Line height: 20sp
+  (identical to box height)
+  translationY 0.62sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="portlet_tit">
+
+<item name="android:textSize">
+16sp
+</item>
+
+<item name="android:letterSpacing">
+0
+</item>
+
+<item name="android:textColor">
+#3A3B3F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="portlet_tit">
+
+Doctors Appointment
+</string>
+
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1183.07dp"
+android:height="56dp"
+android:viewportWidth="1183.07"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1183.07V56H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1183.07dp"
+android:height="56dp"
+android:viewportWidth="1183.07"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1183.07V56H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1183.07dp"
+android:height="56dp"
+android:viewportWidth="1183.07"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1183.07V56H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1183.07dp"
+android:height="56dp"
+android:viewportWidth="1183.07"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1183.07V56H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1183.07dp"
+android:height="56dp"
+android:viewportWidth="1183.07"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1183.07V56H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1183.07dp"
+android:height="56dp"
+android:viewportWidth="1183.07"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1183.07V56H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- . -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/some_id"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/some_id"
+ />
+
+
+<!-- drawable/some_id.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="1183.07dp"
+android:height="56dp"
+android:viewportWidth="1183.07"
+android:viewportHeight="56"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H1183.07V56H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- DataTable/TableFooter -->
+<View
+android:id="@+id/datatable_t"
+android:layout_width="1214dp"
+android:layout_height="60.02dp"
+android:background="#00000000"
+ />
+
+
+
+
+iOS
+
+
+// Card/Colored
+
+
+var view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1214, height: 536)
+
+view.backgroundColor = .white
+
+
+var shadows = UIView()
+
+shadows.frame = view.frame
+
+shadows.clipsToBounds = false
+
+view.addSubview(shadows)
+
+
+let shadowPath0 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 4)
+
+let layer0 = CALayer()
+
+layer0.shadowPath = shadowPath0.cgPath
+
+layer0.shadowColor = UIColor(red: 0.247, green: 0.247, blue: 0.267, alpha: 0.15).cgColor
+
+layer0.shadowOpacity = 1
+
+layer0.shadowRadius = 3
+
+layer0.shadowOffset = CGSize(width: 0, height: 1)
+
+layer0.bounds = shadows.bounds
+
+layer0.position = shadows.center
+
+shadows.layer.addSublayer(layer0)
+
+
+let shadowPath1 = UIBezierPath(roundedRect: shadows.bounds, cornerRadius: 4)
+
+let layer1 = CALayer()
+
+layer1.shadowPath = shadowPath1.cgPath
+
+layer1.shadowColor = UIColor(red: 0.247, green: 0.247, blue: 0.267, alpha: 0.05).cgColor
+
+layer1.shadowOpacity = 1
+
+layer1.shadowRadius = 6
+
+layer1.shadowOffset = CGSize(width: 30, height: 30)
+
+layer1.bounds = shadows.bounds
+
+layer1.position = shadows.center
+
+shadows.layer.addSublayer(layer1)
+
+
+var shapes = UIView()
+
+shapes.frame = view.frame
+
+shapes.clipsToBounds = true
+
+view.addSubview(shapes)
+
+
+let layer2 = CALayer()
+
+layer2.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+
+layer2.bounds = shapes.bounds
+
+layer2.position = shapes.center
+
+shapes.layer.addSublayer(layer2)
+
+
+shapes.layer.cornerRadius = 4
+
+var stroke = UIView()
+
+stroke.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.center = view.center
+
+view.addSubview(stroke)
+
+stroke.layer.cornerRadius = 5
+
+view.bounds = view.bounds.insetBy(dx: -1, dy: -1)
+
+stroke.layer.borderWidth = 1
+
+stroke.layer.borderColor = UIColor(red: 0.247, green: 0.247, blue: 0.267, alpha: 0).cgColor
+
+
+
+
+// Rectangle
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1193, height: 68)
+
+view.backgroundColor = .white
+
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 130, height: 20)
+
+view.backgroundColor = .white
+
+
+
+
+
+// Portlet Title
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 224, height: 20)
+
+view.backgroundColor = .white
+
+
+view.textColor = UIColor(red: 0.227, green: 0.232, blue: 0.248, alpha: 1)
+
+view.font = UIFont(name: "Roboto-Medium", size: 16)
+
+var paragraphStyle = NSMutableParagraphStyle()
+
+paragraphStyle.lineHeightMultiple = 1.07
+
+
+// Line height: 20 pt
+
+// (identical to box height)
+
+
+view.attributedText = NSMutableAttributedString(string: "Doctors Appointment", attributes: [NSAttributedString.Key.kern: -0.05, NSAttributedString.Key.paragraphStyle: paragraphStyle])
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1183.07, height: 56)
+
+view.backgroundColor = .white
+
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1183.07, height: 56)
+
+view.backgroundColor = .white
+
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1183.07, height: 56)
+
+view.backgroundColor = .white
+
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1183.07, height: 56)
+
+view.backgroundColor = .white
+
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1183.07, height: 56)
+
+view.backgroundColor = .white
+
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1183.07, height: 56)
+
+view.backgroundColor = .white
+
+
+
+
+
+// .
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1183.07, height: 56)
+
+view.backgroundColor = .white
+
+
+
+
+
+// DataTable/TableFooter
+
+
+view = UILabel()
+
+view.frame = CGRect(x: 0, y: 0, width: 1214, height: 60.02)
+
+view.backgroundColor = .white
+
+
+view.layer.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0).cgColor
+
+
+
+
+
